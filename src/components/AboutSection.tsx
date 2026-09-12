@@ -82,7 +82,7 @@ function StatCard({
 
   return (
     <div className="group bg-white rounded-2xl px-6 py-10 text-center border border-[#BA7517]/40 shadow-sm hover:shadow-xl hover:border-[#BA7517]/70 transition-all duration-300 hover:-translate-y-1">
-      <div className="font-display text-5xl sm:text-6xl font-bold text-brand-red leading-none">
+      <div className="font-sans text-5xl sm:text-6xl font-extrabold text-brand-red leading-none tracking-tight">
         {value}
         <span
           className={`inline-block transition-all duration-500 ${
@@ -197,7 +197,8 @@ export default function AboutSection() {
             Khác biệt trong đào tạo tiếng Trung
           </p>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-brand-red leading-tight mb-5">
-            10 Lý Do Nên Chọn Tiếng Trung ThanhMaiHSK
+            <span className="font-sans font-extrabold tracking-tight">10</span>{' '}
+            Lý Do Nên Chọn Tiếng Trung ThanhMaiHSK
           </h2>
           <p className="font-sans text-gray-600 max-w-2xl mx-auto leading-relaxed mb-14">
             ThanhMaiHSK xây dựng hệ sinh thái học tiếng Trung toàn diện, kết hợp
