@@ -3,6 +3,7 @@ import Medallion from '@/components/Medallion';
 import AboutSection from '@/components/AboutSection';
 import NextSection from '@/components/NextSection';
 import RoadmapSection from '@/components/RoadmapSection';
+import CoursesSection from '@/components/CoursesSection';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <AboutSection />
       <RoadmapSection />
+      <CoursesSection />
       <NextSection />
       {/* Circular calligraphy medallion straddling the boundary between hero and about section */}
       <div className="absolute left-1/2 top-[100vh] -translate-x-1/2 -translate-y-1/2 z-50">
