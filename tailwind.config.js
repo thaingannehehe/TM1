@@ -28,6 +28,7 @@ export default {
         'float-delayed': 'float 3.5s ease-in-out infinite 1.5s',
         'fade-up': 'fadeUp 1s ease-out both',
         'fade-in': 'fadeIn 1.2s ease-out both',
+        'seal-float': 'sealFloat 3.5s ease-in-out infinite',
       },
       keyframes: {
         float: {
@@ -41,6 +42,10 @@ export default {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        sealFloat: {
+          '0%, 100%': { transform: 'translateY(0) rotate(-8deg)' },
+          '50%': { transform: 'translateY(-6px) rotate(-8deg)' },
         },
       },
     },
